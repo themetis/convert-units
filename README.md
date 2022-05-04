@@ -178,6 +178,7 @@ Supported Units
 * qt
 * gal
 * ft3
+* mi3
 * yd3
 
 ### Volume Flow Rate

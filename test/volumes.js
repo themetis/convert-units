@@ -145,6 +145,13 @@ tests['m3 to yd3'] = function () {
     , 'Expected: ' + expected +', Actual: ' + actual);
 };
 
+tests['mi3 to m3'] = function () {
+  var expected = 4168181825.440579584
+    , actual = convert(1).from('mi3').to('m3');
+  assert.ok( percentError(expected, actual) < ACCURACY
+    , 'Expected: ' + expected +', Actual: ' + actual);
+};
+
 tests['ft3 to cm3'] = function () {
   var expected = 28316.8
     , actual = convert(1).from('ft3').to('cm3');
